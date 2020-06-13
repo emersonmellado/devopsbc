@@ -8,13 +8,17 @@
     a. Encapsulation
     b. Polymorphism
     c. Inheritance
+    d. Another topic
 """
-if 10:
-    print("10 is a valid number")
+value = 10
+if value == 10:
+    print("value is 10")
+    print("Another thing")
 else:
-    print("10 is not valid, in some parallel universe")
+    print("value is NOT 10")
+    print("Is this going to print?")
 
-
+print("---------------------------")
 item_one = 10
 item_two = 20
 item_three = 30
